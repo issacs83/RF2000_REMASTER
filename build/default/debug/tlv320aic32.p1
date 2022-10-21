@@ -1,0 +1,292 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"19 tlv320aic32.c
+[; ;tlv320aic32.c: 19: extern int16_t aic32_headphoneout( );
+[v _aic32_headphoneout `(s ~T0 @X0 0 e? ]
+"56 ./mcc_generated_files/examples/i2c1_master_example.h
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 56: void I2C1_Write1ByteRegister(i2c1_address_t address, uint8_t reg, uint8_t data);
+[v _I2C1_Write1ByteRegister `(v ~T0 @X0 0 ef3`uc`uc`uc ]
+"34 ./mcc_generated_files/delay.h
+[; ;./mcc_generated_files/delay.h: 34: void DELAY_milliseconds(uint16_t milliseconds);
+[v _DELAY_milliseconds `(v ~T0 @X0 0 ef1`us ]
+"20 tlv320aic32.c
+[; ;tlv320aic32.c: 20: extern void button_push_play(void);
+[v _button_push_play `(v ~T0 @X0 0 ef ]
+"43 ./tlv320aic32.h
+[; ;./tlv320aic32.h: 43: uint8_t tlv320_volume_down[12] = {
+[v _tlv320_volume_down `uc ~T0 @X0 -> 12 `i e ]
+[i _tlv320_volume_down
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 239 `i `uc
+-> -> 66 `i `uc
+-> -> 239 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 16 `i `uc
+-> -> 14 `i `uc
+-> -> 17 `i `uc
+-> -> 14 `i `uc
+..
+]
+"54
+[; ;./tlv320aic32.h: 54: uint8_t tlv320_volume_up[16] = {
+[v _tlv320_volume_up `uc ~T0 @X0 -> 16 `i e ]
+[i _tlv320_volume_up
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 8 `i `uc
+-> -> 66 `i `uc
+-> -> 8 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 16 `i `uc
+-> -> 0 `i `uc
+-> -> 17 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+]
+"69
+[; ;./tlv320aic32.h: 69: uint8_t tlv320_volume_up2[4] = {
+[v _tlv320_volume_up2 `uc ~T0 @X0 -> 4 `i e ]
+[i _tlv320_volume_up2
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+]
+"74
+[; ;./tlv320aic32.h: 74: uint8_t tlv320_streaming_off[8] = {
+[v _tlv320_streaming_off `uc ~T0 @X0 -> 8 `i e ]
+[i _tlv320_streaming_off
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 12 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+]
+"82
+[; ;./tlv320aic32.h: 82: static uint8_t tlv320_volume[] = {
+[v _tlv320_volume `uc ~T0 @X0 -> 10 `i s ]
+[i _tlv320_volume
+:U ..
+-> -> 129 `i `uc
+-> -> 241 `i `uc
+-> -> 249 `i `uc
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 16 `i `uc
+-> -> 24 `i `uc
+-> -> 32 `i `uc
+-> -> 40 `i `uc
+-> -> 48 `i `uc
+..
+]
+"104
+[; ;./tlv320aic32.h: 104: uint8_t tlv320_mic_control[34] = {
+[v _tlv320_mic_control `uc ~T0 @X0 -> 34 `i e ]
+[i _tlv320_mic_control
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 81 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 160 `i `uc
+-> -> 0 `i `uc
+-> -> 61 `i `uc
+-> -> 0 `i `uc
+-> -> 71 `i `uc
+-> -> 50 `i `uc
+-> -> 123 `i `uc
+-> -> 1 `i `uc
+-> -> 55 `i `uc
+-> -> 8 `i `uc
+-> -> 57 `i `uc
+-> -> 8 `i `uc
+-> -> 60 `i `uc
+-> -> 95 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 81 `i `uc
+-> -> 192 `i `uc
+-> -> 82 `i `uc
+-> -> 0 `i `uc
+..
+]
+"36 tlv320aic32.c
+[; ;tlv320aic32.c: 36: int16_t aic32_test( void )
+[v _aic32_test `(s ~T0 @X0 1 ef ]
+"37
+[; ;tlv320aic32.c: 37: {
+{
+[e :U _aic32_test ]
+[f ]
+"38
+[; ;tlv320aic32.c: 38:     aic32_headphoneout();
+[e ( _aic32_headphoneout ..  ]
+"40
+[; ;tlv320aic32.c: 40:     return 0;
+[e ) -> -> 0 `i `s ]
+[e $UE 4  ]
+"41
+[; ;tlv320aic32.c: 41: }
+[e :UE 4 ]
+}
+"42
+[; ;tlv320aic32.c: 42: void TLV320_SetHeadphoneVol(unsigned char volume){
+[v _TLV320_SetHeadphoneVol `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _TLV320_SetHeadphoneVol ]
+[v _volume `uc ~T0 @X0 1 r1 ]
+[f ]
+"43
+[; ;tlv320aic32.c: 43:     uint8_t cmd, regval, i;
+[v _cmd `uc ~T0 @X0 1 a ]
+[v _regval `uc ~T0 @X0 1 a ]
+[v _i `uc ~T0 @X0 1 a ]
+"44
+[; ;tlv320aic32.c: 44:     tlv320_volume_up[3] = tlv320_volume[volume];
+[e = *U + &U _tlv320_volume_up * -> -> -> 3 `i `ui `ux -> -> # *U &U _tlv320_volume_up `ui `ux *U + &U _tlv320_volume * -> _volume `ux -> -> # *U &U _tlv320_volume `ui `ux ]
+"45
+[; ;tlv320aic32.c: 45:     tlv320_volume_up[5] = tlv320_volume[volume];
+[e = *U + &U _tlv320_volume_up * -> -> -> 5 `i `ui `ux -> -> # *U &U _tlv320_volume_up `ui `ux *U + &U _tlv320_volume * -> _volume `ux -> -> # *U &U _tlv320_volume `ui `ux ]
+"47
+[; ;tlv320aic32.c: 47:     for (i = 0; i< 16; i+= 2){
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 16 `i 6  ]
+[e $U 7  ]
+[e :U 6 ]
+{
+"48
+[; ;tlv320aic32.c: 48:         cmd = (tlv320_volume_up[i]);
+[e = _cmd *U + &U _tlv320_volume_up * -> _i `ux -> -> # *U &U _tlv320_volume_up `ui `ux ]
+"49
+[; ;tlv320aic32.c: 49:         regval = tlv320_volume_up[i+1];
+[e = _regval *U + &U _tlv320_volume_up * -> -> + -> _i `i -> 1 `i `ui `ux -> -> # *U &U _tlv320_volume_up `ui `ux ]
+"50
+[; ;tlv320aic32.c: 50:         I2C1_Write1ByteRegister( 0x18, cmd, regval );
+[e ( _I2C1_Write1ByteRegister (3 , , -> -> 24 `i `uc _cmd _regval ]
+"51
+[; ;tlv320aic32.c: 51:         DELAY_milliseconds(1);
+[e ( _DELAY_milliseconds (1 -> -> 1 `i `us ]
+"52
+[; ;tlv320aic32.c: 52:     }
+}
+[e =+ _i -> -> 2 `i `uc ]
+[e $ < -> _i `i -> 16 `i 6  ]
+[e :U 7 ]
+}
+"54
+[; ;tlv320aic32.c: 54: }
+[e :UE 5 ]
+}
+"55
+[; ;tlv320aic32.c: 55: void TLV320_Mute(unsigned char on_off){
+[v _TLV320_Mute `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _TLV320_Mute ]
+[v _on_off `uc ~T0 @X0 1 r1 ]
+[f ]
+"56
+[; ;tlv320aic32.c: 56:     uint8_t cmd, regval, i;
+[v _cmd `uc ~T0 @X0 1 a ]
+[v _regval `uc ~T0 @X0 1 a ]
+[v _i `uc ~T0 @X0 1 a ]
+"57
+[; ;tlv320aic32.c: 57:     button_push_play();
+[e ( _button_push_play ..  ]
+"59
+[; ;tlv320aic32.c: 59:     if(on_off == 1){
+[e $ ! == -> _on_off `i -> 1 `i 10  ]
+{
+"60
+[; ;tlv320aic32.c: 60:         for (i = 0; i< 4; i+= 2){
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 4 `i 11  ]
+[e $U 12  ]
+[e :U 11 ]
+{
+"61
+[; ;tlv320aic32.c: 61:             cmd = (tlv320_mic_control[i]);
+[e = _cmd *U + &U _tlv320_mic_control * -> _i `ux -> -> # *U &U _tlv320_mic_control `ui `ux ]
+"62
+[; ;tlv320aic32.c: 62:             regval = tlv320_mic_control[i+1];
+[e = _regval *U + &U _tlv320_mic_control * -> -> + -> _i `i -> 1 `i `ui `ux -> -> # *U &U _tlv320_mic_control `ui `ux ]
+"63
+[; ;tlv320aic32.c: 63:             I2C1_Write1ByteRegister( 0x18, cmd, regval );
+[e ( _I2C1_Write1ByteRegister (3 , , -> -> 24 `i `uc _cmd _regval ]
+"64
+[; ;tlv320aic32.c: 64:             DELAY_milliseconds(1);
+[e ( _DELAY_milliseconds (1 -> -> 1 `i `us ]
+"65
+[; ;tlv320aic32.c: 65:         }
+}
+[e =+ _i -> -> 2 `i `uc ]
+[e $ < -> _i `i -> 4 `i 11  ]
+[e :U 12 ]
+}
+"66
+[; ;tlv320aic32.c: 66:     }
+}
+[e $U 14  ]
+"67
+[; ;tlv320aic32.c: 67:     else{
+[e :U 10 ]
+{
+"68
+[; ;tlv320aic32.c: 68:         for (i = 4; i< 30; i+= 2){
+{
+[e = _i -> -> 4 `i `uc ]
+[e $ < -> _i `i -> 30 `i 15  ]
+[e $U 16  ]
+[e :U 15 ]
+{
+"69
+[; ;tlv320aic32.c: 69:             cmd = (tlv320_mic_control[i]);
+[e = _cmd *U + &U _tlv320_mic_control * -> _i `ux -> -> # *U &U _tlv320_mic_control `ui `ux ]
+"70
+[; ;tlv320aic32.c: 70:             regval = tlv320_mic_control[i+1];
+[e = _regval *U + &U _tlv320_mic_control * -> -> + -> _i `i -> 1 `i `ui `ux -> -> # *U &U _tlv320_mic_control `ui `ux ]
+"71
+[; ;tlv320aic32.c: 71:             I2C1_Write1ByteRegister( 0x18, cmd, regval );
+[e ( _I2C1_Write1ByteRegister (3 , , -> -> 24 `i `uc _cmd _regval ]
+"72
+[; ;tlv320aic32.c: 72:             DELAY_milliseconds(1);
+[e ( _DELAY_milliseconds (1 -> -> 1 `i `us ]
+"73
+[; ;tlv320aic32.c: 73:         }
+}
+[e =+ _i -> -> 2 `i `uc ]
+[e $ < -> _i `i -> 30 `i 15  ]
+[e :U 16 ]
+}
+"74
+[; ;tlv320aic32.c: 74:     }
+}
+[e :U 14 ]
+"75
+[; ;tlv320aic32.c: 75: }
+[e :UE 9 ]
+}

@@ -1,0 +1,310 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"56 ./mcc_generated_files/examples/i2c1_master_example.h
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 56: void I2C1_Write1ByteRegister(i2c1_address_t address, uint8_t reg, uint8_t data);
+[v _I2C1_Write1ByteRegister `(v ~T0 @X0 0 ef3`uc`uc`uc ]
+"54
+[; ;./mcc_generated_files/examples/i2c1_master_example.h: 54: uint8_t I2C1_Read1ByteRegister(i2c1_address_t address, uint8_t reg);
+[v _I2C1_Read1ByteRegister `(uc ~T0 @X0 0 ef2`uc`uc ]
+"34 ./mcc_generated_files/delay.h
+[; ;./mcc_generated_files/delay.h: 34: void DELAY_milliseconds(uint16_t milliseconds);
+[v _DELAY_milliseconds `(v ~T0 @X0 0 ef1`us ]
+"43 ./tlv320aic32.h
+[; ;./tlv320aic32.h: 43: uint8_t tlv320_volume_down[12] = {
+[v _tlv320_volume_down `uc ~T0 @X0 -> 12 `i e ]
+[i _tlv320_volume_down
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 239 `i `uc
+-> -> 66 `i `uc
+-> -> 239 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 16 `i `uc
+-> -> 14 `i `uc
+-> -> 17 `i `uc
+-> -> 14 `i `uc
+..
+]
+"54
+[; ;./tlv320aic32.h: 54: uint8_t tlv320_volume_up[16] = {
+[v _tlv320_volume_up `uc ~T0 @X0 -> 16 `i e ]
+[i _tlv320_volume_up
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 8 `i `uc
+-> -> 66 `i `uc
+-> -> 8 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 16 `i `uc
+-> -> 14 `i `uc
+-> -> 17 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+]
+"70
+[; ;./tlv320aic32.h: 70: uint8_t tlv320_volume_up2[4] = {
+[v _tlv320_volume_up2 `uc ~T0 @X0 -> 4 `i e ]
+[i _tlv320_volume_up2
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+]
+"75
+[; ;./tlv320aic32.h: 75: uint8_t tlv320_streaming_off[8] = {
+[v _tlv320_streaming_off `uc ~T0 @X0 -> 8 `i e ]
+[i _tlv320_streaming_off
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 12 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+]
+"83
+[; ;./tlv320aic32.h: 83: static uint8_t tlv320_volume[] = {
+[v _tlv320_volume `uc ~T0 @X0 -> 10 `i s ]
+[i _tlv320_volume
+:U ..
+-> -> 129 `i `uc
+-> -> 241 `i `uc
+-> -> 249 `i `uc
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 16 `i `uc
+-> -> 24 `i `uc
+-> -> 32 `i `uc
+-> -> 40 `i `uc
+-> -> 48 `i `uc
+..
+]
+"105
+[; ;./tlv320aic32.h: 105: uint8_t tlv320_mic_control[34] = {
+[v _tlv320_mic_control `uc ~T0 @X0 -> 34 `i e ]
+[i _tlv320_mic_control
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 81 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 160 `i `uc
+-> -> 0 `i `uc
+-> -> 61 `i `uc
+-> -> 0 `i `uc
+-> -> 71 `i `uc
+-> -> 50 `i `uc
+-> -> 123 `i `uc
+-> -> 1 `i `uc
+-> -> 55 `i `uc
+-> -> 4 `i `uc
+-> -> 57 `i `uc
+-> -> 4 `i `uc
+-> -> 60 `i `uc
+-> -> 95 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 81 `i `uc
+-> -> 192 `i `uc
+-> -> 82 `i `uc
+-> -> 0 `i `uc
+..
+]
+"28 tlv320aic32_registers.c
+[; ;tlv320aic32_registers.c: 28: int16_t TLV320AIC32_rget( AIC32_Handle aic32, uint16_t regnum, uint16_t* regval )
+[v _TLV320AIC32_rget `(s ~T0 @X0 1 ef3`s`us`*us ]
+"29
+[; ;tlv320aic32_registers.c: 29: {
+{
+[e :U _TLV320AIC32_rget ]
+"28
+[; ;tlv320aic32_registers.c: 28: int16_t TLV320AIC32_rget( AIC32_Handle aic32, uint16_t regnum, uint16_t* regval )
+[v _aic32 `s ~T0 @X0 1 r1 ]
+[v _regnum `us ~T0 @X0 1 r2 ]
+[v _regval `*us ~T0 @X0 1 r3 ]
+"29
+[; ;tlv320aic32_registers.c: 29: {
+[f ]
+"30
+[; ;tlv320aic32_registers.c: 30:     int16_t retcode = 0;
+[v _retcode `s ~T0 @X0 1 a ]
+[e = _retcode -> -> 0 `i `s ]
+"32
+[; ;tlv320aic32_registers.c: 32:     uint8_t cmd = regnum & 0x7f;
+[v _cmd `uc ~T0 @X0 1 a ]
+[e = _cmd -> & -> _regnum `ui -> -> 127 `i `ui `uc ]
+"39
+[; ;tlv320aic32_registers.c: 39:     I2C1_Write1ByteRegister( 0x18, cmd, 1 );
+[e ( _I2C1_Write1ByteRegister (3 , , -> -> 24 `i `uc _cmd -> -> 1 `i `uc ]
+"40
+[; ;tlv320aic32_registers.c: 40:  retcode |= I2C1_Read1ByteRegister( 0x18, cmd);
+[e =| _retcode -> ( _I2C1_Read1ByteRegister (2 , -> -> 24 `i `uc _cmd `s ]
+"43
+[; ;tlv320aic32_registers.c: 43:     return retcode;
+[e ) _retcode ]
+[e $UE 4  ]
+"44
+[; ;tlv320aic32_registers.c: 44: }
+[e :UE 4 ]
+}
+"51
+[; ;tlv320aic32_registers.c: 51: int16_t TLV320AIC32_rset( AIC32_Handle aic32, uint16_t regnum, uint16_t regval )
+[v _TLV320AIC32_rset `(s ~T0 @X0 1 ef3`s`us`us ]
+"52
+[; ;tlv320aic32_registers.c: 52: {
+{
+[e :U _TLV320AIC32_rset ]
+"51
+[; ;tlv320aic32_registers.c: 51: int16_t TLV320AIC32_rset( AIC32_Handle aic32, uint16_t regnum, uint16_t regval )
+[v _aic32 `s ~T0 @X0 1 r1 ]
+[v _regnum `us ~T0 @X0 1 r2 ]
+[v _regval `us ~T0 @X0 1 r3 ]
+"52
+[; ;tlv320aic32_registers.c: 52: {
+[f ]
+"58
+[; ;tlv320aic32_registers.c: 58:      uint8_t cmd = (regnum <<1) & 0xFe;
+[v _cmd `uc ~T0 @X0 1 a ]
+[e = _cmd -> & << -> _regnum `ui -> 1 `i -> -> 254 `i `ui `uc ]
+"63
+[; ;tlv320aic32_registers.c: 63:      I2C1_Write1ByteRegister( 0x18, cmd, regval );
+[e ( _I2C1_Write1ByteRegister (3 , , -> -> 24 `i `uc _cmd -> _regval `uc ]
+"66
+[; ;tlv320aic32_registers.c: 66: }
+[e :UE 5 ]
+}
+"73
+[; ;tlv320aic32_registers.c: 73: int16_t TLV320AIC32_rset_mask( AIC32_Handle aic32, uint16_t regnum,
+[v _TLV320AIC32_rset_mask `(s ~T0 @X0 1 ef4`s`us`us`uc ]
+"75
+[; ;tlv320aic32_registers.c: 75: {
+{
+[e :U _TLV320AIC32_rset_mask ]
+"73
+[; ;tlv320aic32_registers.c: 73: int16_t TLV320AIC32_rset_mask( AIC32_Handle aic32, uint16_t regnum,
+[v _aic32 `s ~T0 @X0 1 r1 ]
+[v _regnum `us ~T0 @X0 1 r2 ]
+"74
+[; ;tlv320aic32_registers.c: 74:                                  uint16_t regval, uint8_t mask )
+[v _regval `us ~T0 @X0 1 r3 ]
+[v _mask `uc ~T0 @X0 1 r4 ]
+"75
+[; ;tlv320aic32_registers.c: 75: {
+[f ]
+"76
+[; ;tlv320aic32_registers.c: 76:     uint16_t old_regval;
+[v _old_regval `us ~T0 @X0 1 a ]
+"77
+[; ;tlv320aic32_registers.c: 77:     int16_t retcode = 0;
+[v _retcode `s ~T0 @X0 1 a ]
+[e = _retcode -> -> 0 `i `s ]
+"79
+[; ;tlv320aic32_registers.c: 79:     retcode |= TLV320AIC32_rget( aic32, regnum, &old_regval );
+[e =| _retcode -> ( _TLV320AIC32_rget (3 , , _aic32 _regnum &U _old_regval `s ]
+"81
+[; ;tlv320aic32_registers.c: 81:     old_regval = ( ( old_regval & ( ~mask ) ) | ( regval & mask ) );
+[e = _old_regval -> | & -> _old_regval `ui -> ~ -> _mask `i `ui & -> _regval `ui -> _mask `ui `us ]
+"83
+[; ;tlv320aic32_registers.c: 83:     retcode |= TLV320AIC32_rset( aic32, regnum, old_regval );
+[e =| _retcode -> ( _TLV320AIC32_rset (3 , , _aic32 _regnum _old_regval `s ]
+"84
+[; ;tlv320aic32_registers.c: 84:     return retcode;
+[e ) _retcode ]
+[e $UE 6  ]
+"85
+[; ;tlv320aic32_registers.c: 85: }
+[e :UE 6 ]
+}
+"92
+[; ;tlv320aic32_registers.c: 92: int16_t TLV320AIC32_config( AIC32_Handle aic32, uint8_t *config )
+[v _TLV320AIC32_config `(s ~T0 @X0 1 ef2`s`*uc ]
+"93
+[; ;tlv320aic32_registers.c: 93: {
+{
+[e :U _TLV320AIC32_config ]
+"92
+[; ;tlv320aic32_registers.c: 92: int16_t TLV320AIC32_config( AIC32_Handle aic32, uint8_t *config )
+[v _aic32 `s ~T0 @X0 1 r1 ]
+[v _config `*uc ~T0 @X0 1 r2 ]
+"93
+[; ;tlv320aic32_registers.c: 93: {
+[f ]
+"94
+[; ;tlv320aic32_registers.c: 94:     int16_t i, data;
+[v _i `s ~T0 @X0 1 a ]
+[v _data `s ~T0 @X0 1 a ]
+"95
+[; ;tlv320aic32_registers.c: 95:     uint8_t cmd, regval;
+[v _cmd `uc ~T0 @X0 1 a ]
+[v _regval `uc ~T0 @X0 1 a ]
+"96
+[; ;tlv320aic32_registers.c: 96:     int16_t retcode = 0;
+[v _retcode `s ~T0 @X0 1 a ]
+[e = _retcode -> -> 0 `i `s ]
+"97
+[; ;tlv320aic32_registers.c: 97:     unsigned char len = sizeof(config)/2;
+[v _len `uc ~T0 @X0 1 a ]
+[e = _len -> / -> # _config `ui -> -> 2 `i `ui `uc ]
+"99
+[; ;tlv320aic32_registers.c: 99:     if ( config == 0 )
+[e $ ! == _config -> -> 0 `i `*uc 8  ]
+"100
+[; ;tlv320aic32_registers.c: 100:         return -1;
+[e ) -> -U -> 1 `i `s ]
+[e $UE 7  ]
+[e :U 8 ]
+"107
+[; ;tlv320aic32_registers.c: 107:     for (i = 0; i< 248; i+= 2){
+{
+[e = _i -> -> 0 `i `s ]
+[e $ < -> _i `i -> 248 `i 9  ]
+[e $U 10  ]
+[e :U 9 ]
+{
+"112
+[; ;tlv320aic32_registers.c: 112:         cmd = (config[i]);
+[e = _cmd *U + _config * -> _i `x -> -> # *U _config `i `x ]
+"113
+[; ;tlv320aic32_registers.c: 113:         regval = config[i+1];
+[e = _regval *U + _config * -> + -> _i `i -> 1 `i `x -> -> # *U _config `i `x ]
+"115
+[; ;tlv320aic32_registers.c: 115:             I2C1_Write1ByteRegister( 0x18, cmd, regval );
+[e ( _I2C1_Write1ByteRegister (3 , , -> -> 24 `i `uc _cmd _regval ]
+"116
+[; ;tlv320aic32_registers.c: 116:             DELAY_milliseconds(1);
+[e ( _DELAY_milliseconds (1 -> -> 1 `i `us ]
+"117
+[; ;tlv320aic32_registers.c: 117:     }
+}
+[e =+ _i -> -> 2 `i `s ]
+[e $ < -> _i `i -> 248 `i 9  ]
+[e :U 10 ]
+}
+"118
+[; ;tlv320aic32_registers.c: 118:     return retcode;
+[e ) _retcode ]
+[e $UE 7  ]
+"119
+[; ;tlv320aic32_registers.c: 119: }
+[e :UE 7 ]
+}

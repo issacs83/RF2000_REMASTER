@@ -1,0 +1,177 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"138 ./tlv320aic32.h
+[; ;./tlv320aic32.h: 138: int16_t TLV320AIC32_config ( AIC32_Handle aic32, uint8_t* config );
+[v _TLV320AIC32_config `(s ~T0 @X0 0 ef2`s`*uc ]
+"43 ./tlv320aic32.h
+[; ;./tlv320aic32.h: 43: uint8_t tlv320_volume_down[12] = {
+[v _tlv320_volume_down `uc ~T0 @X0 -> 12 `i e ]
+[i _tlv320_volume_down
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 239 `i `uc
+-> -> 66 `i `uc
+-> -> 239 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 16 `i `uc
+-> -> 14 `i `uc
+-> -> 17 `i `uc
+-> -> 14 `i `uc
+..
+]
+"54
+[; ;./tlv320aic32.h: 54: uint8_t tlv320_volume_up[16] = {
+[v _tlv320_volume_up `uc ~T0 @X0 -> 16 `i e ]
+[i _tlv320_volume_up
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 65 `i `uc
+-> -> 8 `i `uc
+-> -> 66 `i `uc
+-> -> 8 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 16 `i `uc
+-> -> 14 `i `uc
+-> -> 17 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+]
+"70
+[; ;./tlv320aic32.h: 70: uint8_t tlv320_volume_up2[4] = {
+[v _tlv320_volume_up2 `uc ~T0 @X0 -> 4 `i e ]
+[i _tlv320_volume_up2
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+]
+"75
+[; ;./tlv320aic32.h: 75: uint8_t tlv320_streaming_off[8] = {
+[v _tlv320_streaming_off `uc ~T0 @X0 -> 8 `i e ]
+[i _tlv320_streaming_off
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 12 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+..
+]
+"83
+[; ;./tlv320aic32.h: 83: static uint8_t tlv320_volume[] = {
+[v _tlv320_volume `uc ~T0 @X0 -> 10 `i s ]
+[i _tlv320_volume
+:U ..
+-> -> 129 `i `uc
+-> -> 241 `i `uc
+-> -> 249 `i `uc
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 16 `i `uc
+-> -> 24 `i `uc
+-> -> 32 `i `uc
+-> -> 40 `i `uc
+-> -> 48 `i `uc
+..
+]
+"105
+[; ;./tlv320aic32.h: 105: uint8_t tlv320_mic_control[34] = {
+[v _tlv320_mic_control `uc ~T0 @X0 -> 34 `i e ]
+[i _tlv320_mic_control
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 81 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 1 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 160 `i `uc
+-> -> 0 `i `uc
+-> -> 61 `i `uc
+-> -> 0 `i `uc
+-> -> 71 `i `uc
+-> -> 50 `i `uc
+-> -> 123 `i `uc
+-> -> 1 `i `uc
+-> -> 55 `i `uc
+-> -> 4 `i `uc
+-> -> 57 `i `uc
+-> -> 4 `i `uc
+-> -> 60 `i `uc
+-> -> 95 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 81 `i `uc
+-> -> 192 `i `uc
+-> -> 82 `i `uc
+-> -> 0 `i `uc
+..
+]
+"24 tlv320aic32_aic32_opencodec.c
+[; ;tlv320aic32_aic32_opencodec.c: 24: AIC32_Handle TLV320AIC32_openCodec( uint32_t id, uint8_t *config )
+[v _TLV320AIC32_openCodec `(s ~T0 @X0 1 ef2`ul`*uc ]
+"25
+[; ;tlv320aic32_aic32_opencodec.c: 25: {
+{
+[e :U _TLV320AIC32_openCodec ]
+"24
+[; ;tlv320aic32_aic32_opencodec.c: 24: AIC32_Handle TLV320AIC32_openCodec( uint32_t id, uint8_t *config )
+[v _id `ul ~T0 @X0 1 r1 ]
+[v _config `*uc ~T0 @X0 1 r2 ]
+"25
+[; ;tlv320aic32_aic32_opencodec.c: 25: {
+[f ]
+"26
+[; ;tlv320aic32_aic32_opencodec.c: 26:     int16_t retcode = 0;
+[v _retcode `s ~T0 @X0 1 a ]
+[e = _retcode -> -> 0 `i `s ]
+"28
+[; ;tlv320aic32_aic32_opencodec.c: 28:     AIC32_Handle aic32;
+[v _aic32 `s ~T0 @X0 1 a ]
+"29
+[; ;tlv320aic32_aic32_opencodec.c: 29:     if ( ( id != 0 ) || ( config == 0 ) )
+[e $ ! || != _id -> -> -> 0 `i `l `ul == _config -> -> 0 `i `*uc 5  ]
+"30
+[; ;tlv320aic32_aic32_opencodec.c: 30:         return -1;
+[e ) -> -U -> 1 `i `s ]
+[e $UE 4  ]
+[e :U 5 ]
+"49
+[; ;tlv320aic32_aic32_opencodec.c: 49:     aic32 = ( AIC32_Handle )0x18;
+[e = _aic32 -> -> 24 `i `s ]
+"54
+[; ;tlv320aic32_aic32_opencodec.c: 54:     retcode |= TLV320AIC32_config( aic32, config );
+[e =| _retcode -> ( _TLV320AIC32_config (2 , _aic32 _config `s ]
+"57
+[; ;tlv320aic32_aic32_opencodec.c: 57:     if ( retcode )
+[e $ ! != -> _retcode `i -> 0 `i 6  ]
+"58
+[; ;tlv320aic32_aic32_opencodec.c: 58:         return -1;
+[e ) -> -U -> 1 `i `s ]
+[e $UE 4  ]
+[e :U 6 ]
+"59
+[; ;tlv320aic32_aic32_opencodec.c: 59:     return aic32;
+[e ) _aic32 ]
+[e $UE 4  ]
+"60
+[; ;tlv320aic32_aic32_opencodec.c: 60: }
+[e :UE 4 ]
+}

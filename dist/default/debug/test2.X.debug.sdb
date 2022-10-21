@@ -1,0 +1,1547 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18855 ]
+[d frameptr 6 ]
+"34 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/drivers/i2c_simple_master.c
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"53
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"42 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/drivers/spi_master.c
+[e E355 . `uc
+MASTER0_CONFIG 0
+SPI2_DEFAULT 1
+]
+"56
+[e E377 . `uc
+MASTER0 0
+]
+"67 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/examples/i2c1_master_example.c
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"68
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"146 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/i2c1_master.c
+[e E12085 . `uc
+I2C1_IDLE 0
+I2C1_SEND_ADR_READ 1
+I2C1_SEND_ADR_WRITE 2
+I2C1_TX 3
+I2C1_RX 4
+I2C1_RCEN 5
+I2C1_TX_EMPTY 6
+I2C1_SEND_RESTART_READ 7
+I2C1_SEND_RESTART_WRITE 8
+I2C1_SEND_RESTART 9
+I2C1_SEND_STOP 10
+I2C1_RX_ACK 11
+I2C1_RX_NACK_STOP 12
+I2C1_RX_NACK_RESTART 13
+I2C1_RESET 14
+I2C1_ADDRESS_NACK 15
+]
+"165
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"191
+[e E12103 . `uc
+I2C1_DATA_COMPLETE 0
+I2C1_WRITE_COLLISION 1
+I2C1_ADDR_NACK 2
+I2C1_DATA_NACK 3
+I2C1_TIMEOUT 4
+I2C1_NULL 5
+]
+"108 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/adcc.c
+[e E11696 . `uc
+channel_ANA1 1
+channel_ANA3 3
+channel_ANA6 6
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"78 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/spi2.c
+[e E355 . `uc
+MASTER0_CONFIG 0
+SPI2_DEFAULT 1
+]
+"73 C:\Project\20. Gaming Earphone\FW Source\test2.X\main.c
+[e E12320 . `uc
+MIC_DISCONNECTED 0
+MIC_CONNECTED 1
+MUTE_ON 2
+MUTE_OFF 3
+]
+"74
+[e E12330 . `uc
+RED_LED_ON 0
+GREEN_LED_ON 1
+BLUE_LED_ON 2
+LED_OFF 3
+]
+"135
+[e E12110 . `uc
+channel_ANA1 1
+channel_ANA3 3
+channel_ANA6 6
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"15 C:\Project\20. Gaming Earphone\FW Source\test2.X\CC8531_Control_spi.c
+[e E12091 . `uc
+MASTER0_CONFIG 0
+SPI2_DEFAULT 1
+]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"11 C:\Project\20. Gaming Earphone\FW Source\test2.X\CC8531_Control_spi.c
+[v _CC8531_Init_Data_Send CC8531_Init_Data_Send `(v  1 e 1 0 ]
+"302
+[v _CC8531_Polling_Data_Send CC8531_Polling_Data_Send `(v  1 e 1 0 ]
+"84 C:\Project\20. Gaming Earphone\FW Source\test2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"123
+[v _charge_display charge_display `(v  1 e 1 0 ]
+"188
+[v _mic_detect mic_detect `(v  1 e 1 0 ]
+"220
+[v _volume_control volume_control `(v  1 e 1 0 ]
+"261
+[v _beep beep `(v  1 e 1 0 ]
+"291
+[v _power_on_buzzer power_on_buzzer `(v  1 e 1 0 ]
+"300
+[v _power_off_buzzer power_off_buzzer `(v  1 e 1 0 ]
+"308
+[v _button_push_play button_push_play `(v  1 e 1 0 ]
+"318
+[v _led_control led_control `(v  1 e 1 0 ]
+"346
+[v _power_on power_on `(v  1 e 1 0 ]
+"390
+[v _power_off power_off `(v  1 e 1 0 ]
+"405
+[v _power_off_sequence power_off_sequence `(v  1 e 1 0 ]
+"63 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"108
+[v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
+"120
+[v _ADCC_IsConversionDone ADCC_IsConversionDone `(a  1 e 1 0 ]
+"126
+[v _ADCC_GetConversionResult ADCC_GetConversionResult `(us  1 e 2 0 ]
+"38 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/delay.c
+[v _DELAY_milliseconds DELAY_milliseconds `(v  1 e 1 0 ]
+"49
+[v _DELAY_microseconds DELAY_microseconds `(v  1 e 1 0 ]
+"34 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+"81
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+"119
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+"151
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+"185
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+"41 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/drivers/spi_master.c
+[v _MASTER0_open MASTER0_open `(a  1 e 1 0 ]
+"63 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_Read1ByteRegister I2C1_Read1ByteRegister `(uc  1 e 1 0 ]
+"91
+[v _I2C1_Write1ByteRegister I2C1_Write1ByteRegister `(v  1 e 1 0 ]
+"142
+[v _rd1RegCompleteHandler@i2c1_master_example$F264 rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler@i2c1_master_example$F275 rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler@i2c1_master_example$F281 wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler@i2c1_master_example$F287 wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler@i2c1_master_example$F298 rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+"167 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+"246
+[v _I2C1_MasterRead I2C1_MasterRead `(E355  1 e 1 0 ]
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+"273
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+"283
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E12085  1 s 1 I2C1_DO_IDLE ]
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E12085  1 s 1 I2C1_DO_SEND_ADR_READ ]
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E12085  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E12085  1 s 1 I2C1_DO_TX ]
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E12085  1 s 1 I2C1_DO_RX ]
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E12085  1 s 1 I2C1_DO_RCEN ]
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E12085  1 s 1 I2C1_DO_TX_EMPTY ]
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E12085  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E12085  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E12085  1 s 1 I2C1_DO_SEND_RESTART ]
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E12085  1 s 1 I2C1_DO_SEND_STOP ]
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E12085  1 s 1 I2C1_DO_RX_ACK ]
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E12085  1 s 1 I2C1_DO_RX_NACK_STOP ]
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E12085  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E12085  1 s 1 I2C1_DO_RESET ]
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E12085  1 s 1 I2C1_DO_ADDRESS_NACK ]
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+"578
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+"615
+[v _I2C1_MasterClearBusCollision I2C1_MasterClearBusCollision `T(v  1 s 1 I2C1_MasterClearBusCollision ]
+"625
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+"50 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"74
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"58 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/memory.c
+[v _FLASH_ReadWord FLASH_ReadWord `(us  1 e 2 0 ]
+"94
+[v _FLASH_WriteBlock FLASH_WriteBlock `(c  1 e 1 0 ]
+"149
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"180
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"202
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+"55 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"63 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/spi2.c
+[v _SPI2_Initialize SPI2_Initialize `(v  1 e 1 0 ]
+"78
+[v _SPI2_Open SPI2_Open `(a  1 e 1 0 ]
+"93
+[v _SPI2_Close SPI2_Close `(v  1 e 1 0 ]
+"98
+[v _SPI2_ExchangeByte SPI2_ExchangeByte `(uc  1 e 1 0 ]
+"106
+[v _SPI2_ExchangeBlock SPI2_ExchangeBlock `(v  1 e 1 0 ]
+"119
+[v _SPI2_WriteBlock SPI2_WriteBlock `(v  1 e 1 0 ]
+"128
+[v _SPI2_ReadBlock SPI2_ReadBlock `(v  1 e 1 0 ]
+"137
+[v _SPI2_WriteByte SPI2_WriteByte `(v  1 e 1 0 ]
+"142
+[v _SPI2_ReadByte SPI2_ReadByte `(uc  1 e 1 0 ]
+"36 C:\Project\20. Gaming Earphone\FW Source\test2.X\tlv320aic32.c
+[v _aic32_test aic32_test `(s  1 e 2 0 ]
+"42
+[v _TLV320_SetHeadphoneVol TLV320_SetHeadphoneVol `(v  1 e 1 0 ]
+"55
+[v _TLV320_Mute TLV320_Mute `(v  1 e 1 0 ]
+"24 C:\Project\20. Gaming Earphone\FW Source\test2.X\tlv320aic32_aic32_opencodec.c
+[v _TLV320AIC32_openCodec TLV320AIC32_openCodec `(s  1 e 2 0 ]
+"167 C:\Project\20. Gaming Earphone\FW Source\test2.X\tlv320aic32_headphoneout.c
+[v _aic32_headphoneout aic32_headphoneout `(s  1 e 2 0 ]
+"28 C:\Project\20. Gaming Earphone\FW Source\test2.X\tlv320aic32_registers.c
+[v _TLV320AIC32_rget TLV320AIC32_rget `(s  1 e 2 0 ]
+"51
+[v _TLV320AIC32_rset TLV320AIC32_rset `(s  1 e 2 0 ]
+"92
+[v _TLV320AIC32_config TLV320AIC32_config `(s  1 e 2 0 ]
+"34 C:\Project\20. Gaming Earphone\FW Source\test2.X/CC8531_Control_spi.h
+[v _cc8531_init_data cc8531_init_data `[222]uc  1 e 222 @8978 ]
+"206
+[v _cc8531_polling_data cc8531_polling_data `[62]uc  1 e 62 0 ]
+"54 C:\Project\20. Gaming Earphone\FW Source\test2.X/tlv320aic32.h
+[v _tlv320_volume_up tlv320_volume_up `[16]uc  1 e 16 0 ]
+"82
+[v _tlv320_volume@tlv320aic32$F2047 tlv320_volume `[10]uc  1 s 10 tlv320_volume ]
+"104
+[v _tlv320_mic_control tlv320_mic_control `[34]uc  1 e 34 0 ]
+[s S1605 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"364 C:/Users/ljehu/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.15.191/xc8\pic\include\proc\pic16f18855.h
+[u S1610 . 1 `S1605 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1610  1 e 1 @11 ]
+[s S1794 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"401
+[u S1803 . 1 `S1794 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES1803  1 e 1 @12 ]
+[s S1753 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"463
+[u S1762 . 1 `S1753 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1762  1 e 1 @13 ]
+[s S1732 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"525
+[u S1741 . 1 `S1732 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES1741  1 e 1 @14 ]
+"591
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+"653
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+[s S1475 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"670
+[u S1484 . 1 `S1475 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES1484  1 e 1 @18 ]
+"715
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"777
+[v _LATA LATA `VEuc  1 e 1 @22 ]
+[s S1825 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"794
+[u S1834 . 1 `S1825 1 . 1 0 ]
+[v _LATAbits LATAbits `VES1834  1 e 1 @22 ]
+"839
+[v _LATB LATB `VEuc  1 e 1 @23 ]
+[s S1869 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"856
+[u S1878 . 1 `S1869 1 . 1 0 ]
+[v _LATBbits LATBbits `VES1878  1 e 1 @23 ]
+"901
+[v _LATC LATC `VEuc  1 e 1 @24 ]
+[s S1846 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"918
+[u S1855 . 1 `S1846 1 . 1 0 ]
+[v _LATCbits LATCbits `VES1855  1 e 1 @24 ]
+"1538
+[v _ADRESL ADRESL `VEuc  1 e 1 @140 ]
+"1558
+[v _ADRESH ADRESH `VEuc  1 e 1 @141 ]
+"1572
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @142 ]
+"1642
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @143 ]
+"1719
+[v _ADACCL ADACCL `VEuc  1 e 1 @144 ]
+"1789
+[v _ADACCH ADACCH `VEuc  1 e 1 @145 ]
+"1859
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @147 ]
+[s S1234 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"1895
+[s S1242 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFRM 1 0 :2:2 
+]
+[s S1246 . 1 `uc 1 nDONE 1 0 :1:0 
+]
+[s S1248 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+[s S1253 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFRM0 1 0 :1:2 
+`uc 1 ADFRM1 1 0 :1:3 
+]
+[u S1258 . 1 `S1234 1 . 1 0 `S1242 1 . 1 0 `S1246 1 . 1 0 `S1248 1 . 1 0 `S1253 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES1258  1 e 1 @147 ]
+"1970
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @148 ]
+[s S1388 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+"1984
+[u S1394 . 1 `S1388 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES1394  1 e 1 @148 ]
+"2009
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @149 ]
+[s S1324 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+"2031
+[s S1329 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+]
+[u S1337 . 1 `S1324 1 . 1 0 `S1329 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES1337  1 e 1 @149 ]
+"2086
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @150 ]
+[s S1295 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+"2107
+[s S1303 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[u S1307 . 1 `S1295 1 . 1 0 `S1303 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES1307  1 e 1 @150 ]
+"2157
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @151 ]
+[s S1356 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 ADMACT 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+"2177
+[s S1363 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+]
+[u S1367 . 1 `S1356 1 . 1 0 `S1363 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES1367  1 e 1 @151 ]
+"2227
+[v _ADCLK ADCLK `VEuc  1 e 1 @152 ]
+"2285
+[v _ADACT ADACT `VEuc  1 e 1 @153 ]
+"2337
+[v _ADREF ADREF `VEuc  1 e 1 @154 ]
+"2378
+[v _ADCAP ADCAP `VEuc  1 e 1 @155 ]
+"2430
+[v _ADPRE ADPRE `VEuc  1 e 1 @156 ]
+"2500
+[v _ADACQ ADACQ `VEuc  1 e 1 @157 ]
+"2570
+[v _ADPCH ADPCH `VEuc  1 e 1 @158 ]
+"2628
+[v _ADCNT ADCNT `VEuc  1 e 1 @268 ]
+"2698
+[v _ADRPT ADRPT `VEuc  1 e 1 @269 ]
+"2775
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @270 ]
+"2845
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @271 ]
+"2922
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @272 ]
+"2992
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @273 ]
+"3069
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @274 ]
+"3139
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @275 ]
+"3216
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @276 ]
+"3286
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @277 ]
+"3363
+[v _ADERRL ADERRL `VEuc  1 e 1 @278 ]
+"3433
+[v _ADERRH ADERRH `VEuc  1 e 1 @279 ]
+"4348
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @396 ]
+"4368
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @397 ]
+"4558
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @399 ]
+[s S819 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"4667
+[s S828 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S833 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S838 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S843 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S848 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S854 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 R 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 D 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S863 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S869 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 I2C_START1 1 0 :1:3 
+`uc 1 I2C_STOP2 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S875 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ1 1 0 :1:2 
+`uc 1 S2 1 0 :1:3 
+`uc 1 P2 1 0 :1:4 
+`uc 1 DATA_ADDRESS1 1 0 :1:5 
+]
+[s S881 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A1 1 0 :1:5 
+]
+[s S886 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_nA1 1 0 :1:5 
+]
+[s S891 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_nW1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 I2C_DAT1 1 0 :1:5 
+]
+[s S896 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA2 1 0 :1:5 
+]
+[s S901 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE1 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS1 1 0 :1:5 
+]
+[u S906 . 1 `S819 1 . 1 0 `S828 1 . 1 0 `S833 1 . 1 0 `S838 1 . 1 0 `S843 1 . 1 0 `S848 1 . 1 0 `S854 1 . 1 0 `S863 1 . 1 0 `S869 1 . 1 0 `S875 1 . 1 0 `S881 1 . 1 0 `S886 1 . 1 0 `S891 1 . 1 0 `S896 1 . 1 0 `S901 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES906  1 e 1 @399 ]
+"4922
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @400 ]
+[s S541 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4952
+[s S547 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S552 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S561 . 1 `S541 1 . 1 0 `S547 1 . 1 0 `S552 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES561  1 e 1 @400 ]
+"5042
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @401 ]
+[s S725 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"5089
+[s S734 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S737 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S744 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S753 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S760 . 1 `S725 1 . 1 0 `S734 1 . 1 0 `S737 1 . 1 0 `S744 1 . 1 0 `S753 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES760  1 e 1 @401 ]
+"5291
+[v _SSP2BUF SSP2BUF `VEuc  1 e 1 @406 ]
+"5311
+[v _SSP2ADD SSP2ADD `VEuc  1 e 1 @407 ]
+"5501
+[v _SSP2STAT SSP2STAT `VEuc  1 e 1 @409 ]
+"5865
+[v _SSP2CON1 SSP2CON1 `VEuc  1 e 1 @410 ]
+"5895
+[s S1507 . 1 `uc 1 SSPM02 1 0 :1:0 
+`uc 1 SSPM12 1 0 :1:1 
+`uc 1 SSPM22 1 0 :1:2 
+`uc 1 SSPM32 1 0 :1:3 
+`uc 1 CKP2 1 0 :1:4 
+`uc 1 SSPEN2 1 0 :1:5 
+`uc 1 SSPOV2 1 0 :1:6 
+`uc 1 WCOL2 1 0 :1:7 
+]
+[u S1516 . 1 `S541 1 . 1 0 `S547 1 . 1 0 `S1507 1 . 1 0 ]
+[v _SSP2CON1bits SSP2CON1bits `VES1516  1 e 1 @410 ]
+"5985
+[v _SSP2CON2 SSP2CON2 `VEuc  1 e 1 @411 ]
+[s S802 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+"21120
+[u S809 . 1 `S802 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES809  1 e 1 @1807 ]
+[s S1010 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+"21542
+[u S1017 . 1 `S1010 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES1017  1 e 1 @1817 ]
+"21844
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"21901
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"21972
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"22017
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"22073
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"22124
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"22845
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @2074 ]
+"22907
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @2075 ]
+"22963
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @2076 ]
+"23025
+[v _NVMDATH NVMDATH `VEuc  1 e 1 @2077 ]
+[s S1620 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 NVMREGS 1 0 :1:6 
+]
+"23091
+[u S1628 . 1 `S1620 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES1628  1 e 1 @2078 ]
+"23131
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @2079 ]
+"23195
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"23335
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"23432
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"23483
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"23541
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"31254
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @3781 ]
+"31306
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @3782 ]
+"31410
+[v _SSP2CLKPPS SSP2CLKPPS `VEuc  1 e 1 @3784 ]
+"31462
+[v _SSP2DATPPS SSP2DATPPS `VEuc  1 e 1 @3785 ]
+"32120
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @3865 ]
+"32220
+[v _RB3PPS RB3PPS `VEuc  1 e 1 @3867 ]
+"32620
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @3875 ]
+"32670
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @3876 ]
+"32870
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"32932
+[v _WPUA WPUA `VEuc  1 e 1 @3897 ]
+"32994
+[v _ODCONA ODCONA `VEuc  1 e 1 @3898 ]
+"33056
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3899 ]
+"33118
+[v _INLVLA INLVLA `VEuc  1 e 1 @3900 ]
+"33490
+[v _ANSELB ANSELB `VEuc  1 e 1 @3907 ]
+"33552
+[v _WPUB WPUB `VEuc  1 e 1 @3908 ]
+"33614
+[v _ODCONB ODCONB `VEuc  1 e 1 @3909 ]
+"33676
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3910 ]
+"33738
+[v _INLVLB INLVLB `VEuc  1 e 1 @3911 ]
+"34110
+[v _ANSELC ANSELC `VEuc  1 e 1 @3918 ]
+"34172
+[v _WPUC WPUC `VEuc  1 e 1 @3919 ]
+"34234
+[v _ODCONC ODCONC `VEuc  1 e 1 @3920 ]
+"34296
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3921 ]
+"34358
+[v _INLVLC INLVLC `VEuc  1 e 1 @3922 ]
+"34730
+[v _WPUE WPUE `VEuc  1 e 1 @3941 ]
+"34751
+[v _INLVLE INLVLE `VEuc  1 e 1 @3944 ]
+"7 C:\Project\20. Gaming Earphone\FW Source\test2.X\CC8531_Control_spi.c
+[v _streaming_off_flag streaming_off_flag `uc  1 e 1 0 ]
+"70 C:\Project\20. Gaming Earphone\FW Source\test2.X\main.c
+[v _volume_count volume_count `us  1 e 2 0 ]
+"71
+[v _key_count key_count `us  1 e 2 0 ]
+"73
+[v _mic_state_choosed mic_state_choosed `E12320  1 e 1 0 ]
+"75
+[v _key_pressed_volume key_pressed_volume `a  1 e 1 0 ]
+"76
+[v _key_pressed_mute key_pressed_mute `a  1 e 1 0 ]
+"79
+[v _battery_count battery_count `uc  1 e 1 0 ]
+"146 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/i2c1_master.c
+[v _i2c1_fsmStateTable i2c1_fsmStateTable `DC[16]*.37(E12085  1 e 32 0 ]
+[s S515 . 29 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.4v 1 callbackPayload 6 12 `us 1 time_out 2 18 `us 1 time_out_value 2 20 `uc 1 address 1 22 `*.4uc 1 data_ptr 1 23 `ui 1 data_length 2 24 `E12085 1 state 1 26 `E355 1 error 1 27 `uc 1 addressNackCheck 1 28 :1:0 
+`uc 1 busy 1 28 :1:1 
+`uc 1 inUse 1 28 :1:2 
+`uc 1 bufferFree 1 28 :1:3 
+]
+"165
+[v _I2C1_Status I2C1_Status `S515  1 e 29 0 ]
+[s S1463 . 4 `uc 1 con1 1 0 `uc 1 stat 1 1 `uc 1 add 1 2 `uc 1 operation 1 3 ]
+"58 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/spi2.c
+[v _spi2_configuration spi2_configuration `DC[2]S1463  1 s 8 spi2_configuration ]
+"22 C:\Project\20. Gaming Earphone\FW Source\test2.X\tlv320aic32_headphoneout.c
+[v _aic32config_page aic32config_page `[248]uc  1 s 248 aic32config_page ]
+"84 C:\Project\20. Gaming Earphone\FW Source\test2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"121
+} 0
+"220
+[v _volume_control volume_control `(v  1 e 1 0 ]
+{
+"221
+[v volume_control@convertedValue convertedValue `us  1 a 2 26 ]
+"259
+} 0
+"42 C:\Project\20. Gaming Earphone\FW Source\test2.X\tlv320aic32.c
+[v _TLV320_SetHeadphoneVol TLV320_SetHeadphoneVol `(v  1 e 1 0 ]
+{
+[v TLV320_SetHeadphoneVol@volume volume `uc  1 a 1 wreg ]
+"43
+[v TLV320_SetHeadphoneVol@i i `uc  1 a 1 7 ]
+[v TLV320_SetHeadphoneVol@regval regval `uc  1 a 1 5 ]
+[v TLV320_SetHeadphoneVol@cmd cmd `uc  1 a 1 4 ]
+"42
+[v TLV320_SetHeadphoneVol@volume volume `uc  1 a 1 wreg ]
+"44
+[v TLV320_SetHeadphoneVol@volume volume `uc  1 a 1 6 ]
+"54
+} 0
+"180 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/memory.c
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+{
+"182
+[v DATAEE_WriteByte@GIEBitValue GIEBitValue `uc  1 a 1 3 ]
+"180
+[v DATAEE_WriteByte@bAdd bAdd `us  1 p 2 0 ]
+[v DATAEE_WriteByte@bData bData `uc  1 p 1 2 ]
+"200
+} 0
+"346 C:\Project\20. Gaming Earphone\FW Source\test2.X\main.c
+[v _power_on power_on `(v  1 e 1 0 ]
+{
+"388
+} 0
+"291
+[v _power_on_buzzer power_on_buzzer `(v  1 e 1 0 ]
+{
+"298
+} 0
+"36 C:\Project\20. Gaming Earphone\FW Source\test2.X\tlv320aic32.c
+[v _aic32_test aic32_test `(s  1 e 2 0 ]
+{
+"41
+} 0
+"167 C:\Project\20. Gaming Earphone\FW Source\test2.X\tlv320aic32_headphoneout.c
+[v _aic32_headphoneout aic32_headphoneout `(s  1 e 2 0 ]
+{
+"175
+} 0
+"24 C:\Project\20. Gaming Earphone\FW Source\test2.X\tlv320aic32_aic32_opencodec.c
+[v _TLV320AIC32_openCodec TLV320AIC32_openCodec `(s  1 e 2 0 ]
+{
+"26
+[v TLV320AIC32_openCodec@retcode retcode `s  1 a 2 21 ]
+"24
+[v TLV320AIC32_openCodec@id id `ul  1 p 4 15 ]
+[v TLV320AIC32_openCodec@config config `*.39uc  1 p 2 19 ]
+"60
+} 0
+"92 C:\Project\20. Gaming Earphone\FW Source\test2.X\tlv320aic32_registers.c
+[v _TLV320AIC32_config TLV320AIC32_config `(s  1 e 2 0 ]
+{
+"94
+[v TLV320AIC32_config@i i `s  1 a 2 13 ]
+"96
+[v TLV320AIC32_config@retcode retcode `s  1 a 2 9 ]
+"95
+[v TLV320AIC32_config@regval regval `uc  1 a 1 12 ]
+[v TLV320AIC32_config@cmd cmd `uc  1 a 1 11 ]
+"92
+[v TLV320AIC32_config@aic32 aic32 `s  1 p 2 3 ]
+[v TLV320AIC32_config@config config `*.39uc  1 p 2 5 ]
+"119
+} 0
+"11 C:\Project\20. Gaming Earphone\FW Source\test2.X\CC8531_Control_spi.c
+[v _CC8531_Init_Data_Send CC8531_Init_Data_Send `(v  1 e 1 0 ]
+{
+"64
+[v CC8531_Init_Data_Send@i i `us  1 a 2 35 ]
+"104
+[v CC8531_Init_Data_Send@i_2032 i `us  1 a 2 37 ]
+"12
+[v CC8531_Init_Data_Send@cmd_count cmd_count `uc  1 a 1 39 ]
+"13
+[v CC8531_Init_Data_Send@check_connected check_connected `uc  1 a 1 34 ]
+"14
+[v CC8531_Init_Data_Send@check_connected_retry_count check_connected_retry_count `uc  1 a 1 33 ]
+"300
+} 0
+"93 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/spi2.c
+[v _SPI2_Close SPI2_Close `(v  1 e 1 0 ]
+{
+"96
+} 0
+"390 C:\Project\20. Gaming Earphone\FW Source\test2.X\main.c
+[v _power_off power_off `(v  1 e 1 0 ]
+{
+"403
+} 0
+"188
+[v _mic_detect mic_detect `(v  1 e 1 0 ]
+{
+"189
+[v mic_detect@mic_detect_value mic_detect_value `us  1 a 2 31 ]
+"217
+} 0
+"55 C:\Project\20. Gaming Earphone\FW Source\test2.X\tlv320aic32.c
+[v _TLV320_Mute TLV320_Mute `(v  1 e 1 0 ]
+{
+[v TLV320_Mute@on_off on_off `uc  1 a 1 wreg ]
+"56
+[v TLV320_Mute@i i `uc  1 a 1 30 ]
+[v TLV320_Mute@regval regval `uc  1 a 1 29 ]
+[v TLV320_Mute@cmd cmd `uc  1 a 1 28 ]
+"55
+[v TLV320_Mute@on_off on_off `uc  1 a 1 wreg ]
+"57
+[v TLV320_Mute@on_off on_off `uc  1 a 1 27 ]
+"75
+} 0
+"308 C:\Project\20. Gaming Earphone\FW Source\test2.X\main.c
+[v _button_push_play button_push_play `(v  1 e 1 0 ]
+{
+"317
+} 0
+"123
+[v _charge_display charge_display `(v  1 e 1 0 ]
+{
+"124
+[v charge_display@charger_value charger_value `us  1 a 2 30 ]
+[v charge_display@charger_temp charger_temp `us  1 a 2 28 ]
+"186
+} 0
+"108 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/adcc.c
+[v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
+{
+[v ADCC_StartConversion@channel channel `E11696  1 a 1 wreg ]
+[v ADCC_StartConversion@channel channel `E11696  1 a 1 wreg ]
+"111
+[v ADCC_StartConversion@channel channel `E11696  1 a 1 0 ]
+"118
+} 0
+"120
+[v _ADCC_IsConversionDone ADCC_IsConversionDone `(a  1 e 1 0 ]
+{
+"124
+} 0
+"126
+[v _ADCC_GetConversionResult ADCC_GetConversionResult `(us  1 e 2 0 ]
+{
+"130
+} 0
+"50 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"63 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/spi2.c
+[v _SPI2_Initialize SPI2_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"74 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"55 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"123
+} 0
+"60 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"167 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0
+"63 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"106
+} 0
+"202 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/memory.c
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v DATAEE_ReadByte@bAdd bAdd `us  1 p 2 0 ]
+"212
+} 0
+"302 C:\Project\20. Gaming Earphone\FW Source\test2.X\CC8531_Control_spi.c
+[v _CC8531_Polling_Data_Send CC8531_Polling_Data_Send `(v  1 e 1 0 ]
+{
+"303
+[v CC8531_Polling_Data_Send@cmd_count cmd_count `uc  1 a 1 27 ]
+"465
+} 0
+"405 C:\Project\20. Gaming Earphone\FW Source\test2.X\main.c
+[v _power_off_sequence power_off_sequence `(v  1 e 1 0 ]
+{
+"419
+} 0
+"300
+[v _power_off_buzzer power_off_buzzer `(v  1 e 1 0 ]
+{
+"307
+} 0
+"261
+[v _beep beep `(v  1 e 1 0 ]
+{
+"264
+[v beep@beepDelay beepDelay `l  1 a 4 22 ]
+"266
+[v beep@time time `l  1 a 4 16 ]
+"267
+[v beep@i i `i  1 a 2 20 ]
+"261
+[v beep@note note `ui  1 p 2 7 ]
+[v beep@duration duration `ui  1 p 2 9 ]
+"289
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 3 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 2 ]
+[v ___aldiv@counter counter `uc  1 a 1 1 ]
+"5
+[v ___aldiv@divisor divisor `l  1 p 4 6 ]
+[v ___aldiv@dividend dividend `l  1 p 4 10 ]
+"41
+} 0
+"38 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/delay.c
+[v _DELAY_milliseconds DELAY_milliseconds `(v  1 e 1 0 ]
+{
+[v DELAY_milliseconds@milliseconds milliseconds `us  1 p 2 0 ]
+"42
+} 0
+"49
+[v _DELAY_microseconds DELAY_microseconds `(v  1 e 1 0 ]
+{
+[v DELAY_microseconds@microseconds microseconds `us  1 p 2 0 ]
+"60
+} 0
+"318 C:\Project\20. Gaming Earphone\FW Source\test2.X\main.c
+[v _led_control led_control `(v  1 e 1 0 ]
+{
+[v led_control@led_state led_state `E12330  1 a 1 wreg ]
+[v led_control@led_state led_state `E12330  1 a 1 wreg ]
+[v led_control@led_state led_state `E12330  1 a 1 2 ]
+"342
+} 0
+"137 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/spi2.c
+[v _SPI2_WriteByte SPI2_WriteByte `(v  1 e 1 0 ]
+{
+[v SPI2_WriteByte@byte byte `uc  1 p 1 0 ]
+"140
+} 0
+"142
+[v _SPI2_ReadByte SPI2_ReadByte `(uc  1 e 1 0 ]
+{
+"145
+} 0
+"78
+[v _SPI2_Open SPI2_Open `(a  1 e 1 0 ]
+{
+[v SPI2_Open@spi2UniqueConfiguration spi2UniqueConfiguration `E355  1 a 1 wreg ]
+[v SPI2_Open@spi2UniqueConfiguration spi2UniqueConfiguration `E355  1 a 1 wreg ]
+"80
+[v SPI2_Open@spi2UniqueConfiguration spi2UniqueConfiguration `E355  1 a 1 3 ]
+"91
+} 0
+"91 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_Write1ByteRegister I2C1_Write1ByteRegister `(v  1 e 1 0 ]
+{
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C1_Write1ByteRegister@reg reg `uc  1 p 1 0 ]
+[v I2C1_Write1ByteRegister@data data `uc  1 p 1 1 ]
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 2 ]
+"99
+} 0
+"283 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetAddressNackCallback@cb cb `*.37(E360  1 p 2 4 ]
+[v I2C1_SetAddressNackCallback@ptr ptr `*.1v  1 p 1 6 ]
+"286
+} 0
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+{
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@returnValue returnValue `E355  1 a 1 1 ]
+"176
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@address address `uc  1 a 1 0 ]
+"207
+} 0
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+{
+"555
+} 0
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+{
+"254
+} 0
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+{
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@returnValue returnValue `E355  1 a 1 13 ]
+"224
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@read read `a  1 a 1 12 ]
+"244
+} 0
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+{
+"319
+} 0
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+{
+"330
+} 0
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E12085  1 s 1 I2C1_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E12085  1 s 1 I2C1_DO_RESET ]
+{
+"499
+} 0
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E12085  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E12085  1 s 1 I2C1_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E12085  1 s 1 I2C1_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E12085  1 s 1 I2C1_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E12085  1 s 1 I2C1_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E12085  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E12085  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E12085  1 s 1 I2C1_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E12085  1 s 1 I2C1_DO_RX ]
+{
+"400
+} 0
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E12085  1 s 1 I2C1_DO_TX ]
+{
+"376
+} 0
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E12085  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E12085  1 s 1 I2C1_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E12085  1 s 1 I2C1_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E12085  1 s 1 I2C1_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"570
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 0 ]
+"571
+} 0
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+{
+[v I2C1_CallbackReturnReset@funPtr funPtr `*.4v  1 p 1 7 ]
+"528
+} 0
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+{
+"523
+} 0
+"170 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _rdBlkRegCompleteHandler@i2c1_master_example$F298 rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@i2c1_master_example$F298@ptr ptr `*.4v  1 p 1 7 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler@i2c1_master_example$F281 wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@i2c1_master_example$F281@ptr ptr `*.4v  1 p 1 7 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler@i2c1_master_example$F275 rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@i2c1_master_example$F275@ptr ptr `*.4v  1 p 1 7 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler@i2c1_master_example$F264 rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@i2c1_master_example$F264@ptr ptr `*.4v  1 p 1 7 ]
+"147
+} 0
+"185 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/drivers/i2c_simple_master.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@p p `*.4v  1 p 1 7 ]
+"190
+} 0
+"151
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@p p `*.4v  1 p 1 7 ]
+"156
+} 0
+"119
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@p p `*.4v  1 p 1 7 ]
+"124
+} 0
+"81
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@p p `*.4v  1 p 1 7 ]
+"86
+} 0
+"34
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@p p `*.4v  1 p 1 7 ]
+"39
+} 0
+"163 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _wr2RegCompleteHandler@i2c1_master_example$F287 wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@i2c1_master_example$F287@ptr ptr `*.4v  1 p 1 7 ]
+"168
+} 0
+"273 C:\Project\20. Gaming Earphone\FW Source\test2.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetDataCompleteCallback@cb cb `*.37(E360  1 p 2 4 ]
+[v I2C1_SetDataCompleteCallback@ptr ptr `*.4v  1 p 1 6 ]
+"276
+} 0
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+{
+[v I2C1_SetCallback@idx idx `E12103  1 a 1 wreg ]
+[v I2C1_SetCallback@idx idx `E12103  1 a 1 wreg ]
+[v I2C1_SetCallback@cb cb `*.37(E360  1 p 2 0 ]
+[v I2C1_SetCallback@ptr ptr `*.4v  1 p 1 2 ]
+"300
+[v I2C1_SetCallback@idx idx `E12103  1 a 1 3 ]
+"310
+} 0
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 wreg ]
+[v I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 wreg ]
+[v I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 0 ]
+"265
+[v I2C1_SetBuffer@buffer buffer `*.4v  1 a 1 2 ]
+"271
+} 0
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+{
+"596
+} 0
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+{
+"591
+} 0
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+{
+"211
+[v I2C1_Close@returnValue returnValue `E355  1 a 1 0 ]
+"222
+} 0
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+{
+"561
+} 0
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+{
+"643
+} 0
